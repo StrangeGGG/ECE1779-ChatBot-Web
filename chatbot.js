@@ -1,5 +1,15 @@
 // chatbot.js
 
+// chatbot.js
+
+// press Enter to send message
+document.getElementById("userInput").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // avoid default behavior of the Enter key
+        sendMessage();
+    }
+});
+
 function sendMessage() {
     const userInput = document.getElementById("userInput").value;
     const chatbotMessages = document.getElementById("chatbotMessages");
