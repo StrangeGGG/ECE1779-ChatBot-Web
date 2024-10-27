@@ -225,6 +225,14 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__content h1 i {
+    color: #5c7cfa;
+    font-size: 5rem;
 }
 
 .main__content h2{
