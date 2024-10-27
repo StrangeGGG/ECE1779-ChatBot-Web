@@ -422,6 +422,60 @@
     cursor: pointer;
 }
 
+/* Ontario Law Categories Page Styles */
+.ontario-law-page {
+    background-color: #141414; /* 与主页面相同的背景颜色 */
+    color: #ffffff; /* 主页面文本颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #1e1e1e; /* 为内容区域添加深色背景 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.container p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #d3d3d3;
+}
+
+.law-categories {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+.law-categories li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.law-categories li strong {
+    color: #ffb199;
+}
+
 @media screen and (max-width: 960px){
     .services{
         height: 1600px;
