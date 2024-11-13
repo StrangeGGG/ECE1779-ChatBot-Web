@@ -674,3 +674,74 @@
     font-size: 1.5rem;
     color: #fff;
 }
+
+/* 文件管理部分样式 */
+.file-management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 8px;
+    border: 1px solid #ffb199;
+}
+
+.file-management button {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.file-management p {
+    margin-top: 10px;
+    color: white;
+}
+
+.file-management h3 {
+    color: white;
+}
+
+
+
+/* File Upload Button */
+#fileButton, .uploadbutton {
+    background-color: #f77062;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; /* 禁止换行 */
+}
+
+#fileButton:hover, .uploadbutton:hover {
+    background-color: #4837ff;
+}
+
+/* 文件上传区域：显示和排列按钮 */
+.file-actions {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-bottom: 1rem;
+    gap: 10px; /* 调整按钮之间的间距 */
+    align-items: center;
+    margin-top: 20px; /* 增加间距以分隔文件按钮和输入框 */
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-buttons {
+    display: flex;
+    gap: 10px; /* 调整两个按钮的间距 */
+    justify-content: center;
+}
+
+/* 文件上传区域：显示和排列按钮 */
+#fileButton, #fileInput, #fileName {
+    display: block;
+    margin-bottom: 15px;
+}
+

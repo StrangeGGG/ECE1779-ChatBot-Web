@@ -21,6 +21,20 @@
             <input type="text" id="userInput" placeholder="Type your question here..." />
             <button class="button" onclick="sendMessage()">Send</button>
         </div>
+
+        <div class="file-actions">
+            <button id="fileButton">Choose File</button>
+            <input type="file" id="fileInput" style="display: none;" />
+            <p id="fileName"></p>
+            <button class="button" onclick="uploadFile()">Upload File</button>
+        </div>
+
+        <div class="file-management">
+            <h3>File Management</h3>
+            <button class="button" onclick="listFiles()">List Files</button> <div id="fileList"></div>
+            <button class="button" onclick="promptForFileId()">Retrieve File Content</button>
+            <button class="button" onclick="promptForDeleteFile()">Delete File</button>
+        </div>
     </div>
 
     <script src="chatbot.js"></script>
